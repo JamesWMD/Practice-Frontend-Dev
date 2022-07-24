@@ -1,0 +1,249 @@
+html {
+    font-size: 62.5;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------HEARDER--------------------*/
+.browse__nav-section {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid;
+    height: 4rem;
+    align-items: center;
+}
+.browse__nav-section_div--a {
+    font-size: 3.0rem;
+    font-family: "DM serif display" sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(51, 51, 51);
+    padding-left: 1rem;
+}
+.browse__nav-section_divMenu {
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;  
+    padding-right: 1.5rem;  
+}
+.browse__nav-section_divMenu--a {
+    margin-left: 1.8rem;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+.browse__nav-section_div--a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.browse__nav-section_divMenu--a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*-------------------------main----------------------*/
+
+.container-title__section {
+    border-bottom: 0.1rem solid;
+}
+.title__section-div,
+.subtitle__section-div,
+.detalle-title{
+    display: flex;
+    justify-content: center;
+}
+.title__section-div--h1 {
+    width: 100%;
+    text-align: center;
+    font-family:"DM serif display" sans-serif;
+    font-size: 6.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.subtitle__section-div--h2 {
+    font-size: 1.8rem;
+    font-family:"DM serif display" sans-serif;
+    font-weight: bold;
+}
+.detalle-title__span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.detalle-title--img {
+    width: 1.2rem;
+    margin-right: 0.3rem;
+}
+.detalle-title--a {
+    margin-right: 1.2rem;
+    color: rgb(51, 51, 51);
+    font-size: 1.2rem;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder; 
+}
+.detalle-title--a:hover {
+    color: grey;
+}
+.section_RecreColResou {
+
+    width: auto;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    border-bottom: 0.1rem solid
+    ;
+}
+.section-Recreate {
+    padding: 2rem;
+    margin-right: 2rem;
+}
+.section-Recreate--h3 {
+    font-size: 2rem;
+    font-family: "DM serif display" sans-serif;
+    padding-bottom: 1.5rem;
+}
+.section-Recreate_lu {
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 1.2rem;
+}
+.Color-palette{
+    padding: 2rem;
+    margin-right: 4rem;
+    
+}
+.Color-palette--div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Color-palette-h3 {
+    font-size: 2rem;
+    font-family: "DM serif display" sans-serif;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+.Color-palette__divP {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width:max-content;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.C5FD5,
+.dadbf1,
+.b000000,
+.fff {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    border: 0.5px solid grey;
+}
+.C5FD5 {
+    background-color: #4c5fd5;
+}
+.dadbf1 {
+    background-color: #dadbf1;
+}
+.b000000 {
+    background-color: #000000;
+}
+.fff {
+    background-color: #fff;
+}
+.Color-palette--p {
+    font-size: larger;
+    
+}
+.Resources {
+    padding: 2rem;
+}  
+
+.Resources_h3 {
+    font-size: 2rem;
+    font-family: "DM serif display" sans-serif;
+    padding-bottom: 1.5rem;
+}
+.Resources_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.Resources_ul--li {
+    background-color: yellow;
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+}
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.1rem solid;
+    padding: 3rem;
+    
+}
+.section3 div h2 {
+    font-family: "DM serif display" sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section3 div p{
+    font-family: 'Archivo', sans-serif;
+}
+.container__black {
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    width: 40rem;
+    height: 12rem;
+    
+}
+.container__grey {
+    background-color: gray;
+    color: white;
+    padding-left: 2rem;  
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 40rem;
+    height: 12rem;
+}
+.container__white {
+    background-color: white;
+    padding: 2rem;
+    border: 0.1rem solid;
+    font-size: 1.2rem;
+    height: 12rem;
+    font-family: 'Archivo', sans-serif;
+
+}
+.section-section-Reference-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.section-Reference-image-img {
+    border-radius: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Resources_ul--li:hover {
+    color: grey;
+}
+
