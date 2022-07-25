@@ -47,6 +47,7 @@ html {
 
 .container-title__section {
     border-bottom: 0.1rem solid;
+    
 }
 .title__section-div,
 .subtitle__section-div,
@@ -68,6 +69,7 @@ html {
     font-size: 1.8rem;
     font-family:"DM serif display" sans-serif;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 .detalle-title__span{
     display: flex;
@@ -119,6 +121,7 @@ html {
 .Color-palette--div {
     display: grid;
     grid-template-columns: 50% 50%;
+    gap: 1rem;
 }
 .Color-palette-h3 {
     font-size: 2rem;
@@ -158,6 +161,8 @@ html {
 }
 .Color-palette--p {
     font-size: larger;
+    margin-left: 0.2rem;
+    
     
 }
 .Resources {
@@ -173,9 +178,9 @@ html {
     list-style: none;
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 .Resources_ul--li {
-    background-color: yellow;
     font-size: 1.2rem;
     color: #000000;
     font-family: 'Archivo', sans-serif;
@@ -190,24 +195,37 @@ html {
 }
 .section3 div h2 {
     font-family: "DM serif display" sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    
 }
-.section3 div p{
+.section3 div p,
+.section3 div a {
     font-family: 'Archivo', sans-serif;
+    
 }
+.section3 div a {
+    font-weight: bold;
+    color: rgb(51, 51, 51)
+}
+.section3 div a:hover {
+    color: grey;
+}
+
 .container__black {
     background-color: black;
     color: white;
+    padding-right: 2rem;
     padding-left: 2rem;
     margin-right: 2rem;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content:center; 
-    width: 40rem;
+    width: 30rem;
     height: 12rem;
+    line-height: 1.5rem;
     
 }
 .container__grey {
@@ -219,8 +237,10 @@ html {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    width: 40rem;
+    width: 27rem;
     height: 12rem;
+    line-height: 1.5rem;
+    
 }
 .container__white {
     background-color: white;
@@ -229,12 +249,30 @@ html {
     font-size: 1.2rem;
     height: 12rem;
     font-family: 'Archivo', sans-serif;
-
+    width: 17rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+p {
+    padding-right: 2rem;
+}
+.section-Reference-image--h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 8rem;
+    font-family: "DM serif display" sans-serif;
 }
 .section-section-Reference-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
+    border-bottom: 0.1rem solid;
+    margin-bottom: 2rem;
     
 }
 .section-Reference-image-img {
@@ -246,4 +284,28 @@ html {
 .Resources_ul--li:hover {
     color: grey;
 }
+/*-----------------------------footer---------------------------------*/
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Archivo', sans-serif;
+    height: 12vh;
 
+}
+.footer-div--h3 {
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+}
+.footer-div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.footer-div2--a {
+    text-decoration: none;
+    color: white;
+    margin-right: 2.5rem;
+    
+}
